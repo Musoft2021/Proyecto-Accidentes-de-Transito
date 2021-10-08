@@ -1,0 +1,8 @@
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\bin\Debug\netstandard2.0\AcciPro.App.Dominio.deps.json
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\bin\Debug\netstandard2.0\AcciPro.App.Dominio.dll
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\bin\Debug\netstandard2.0\AcciPro.App.Dominio.pdb
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\obj\Debug\netstandard2.0\AcciPro.App.Dominio.csprojAssemblyReference.cache
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\obj\Debug\netstandard2.0\AcciPro.App.Dominio.AssemblyInfoInputs.cache
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\obj\Debug\netstandard2.0\AcciPro.App.Dominio.AssemblyInfo.cs
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\obj\Debug\netstandard2.0\AcciPro.App.Dominio.dll
+C:\Accidentes\AcciPro.App\AcciPro.App.Dominio\obj\Debug\netstandard2.0\AcciPro.App.Dominio.pdb
