@@ -45,7 +45,7 @@ namespace AcciPro.App.Consola
 
         private static void AddAccidente()
         {
-            List<Agente> listaPersona= new List<Agente>{
+            List<Agente> listaAgente= new List<Agente>{
                 new Agente{Nombre="Andres", Apellido="Fernandez", Cedula=109982347, Sexo="Masculino", edad="26"},
                 new Agente{Nombre="Camilo", Apellido="Lopez", Cedula=1124838409, Sexo="Masculino", edad="30"},
                 new Agente{Nombre="Sandra", Apellido="Perez", Cedula=1209832112, Sexo="Femenino", edad="28"}
@@ -58,11 +58,11 @@ namespace AcciPro.App.Consola
 
             var nuevoAccidente = new Accidente
             {
-                Latitud="75.52290F",
-                Longitud="5.07062F",
-                Direccion="Calle 160a N 50g-10",
-                //Fecha='2021/10/10',
-                Descripcion="Choque Multiples Vehiculos"
+                Latitud="65.52290F",
+                Longitud="6.07062F",
+                Direccion="Transversal 160a N 50g-10",
+                //Fecha=1990,04,12,
+                Descripcion="Choque Vehiculos"
 
             };
 
