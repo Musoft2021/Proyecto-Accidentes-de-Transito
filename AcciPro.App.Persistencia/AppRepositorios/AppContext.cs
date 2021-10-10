@@ -18,7 +18,7 @@ namespace AcciPro.App.Persistencia
       if (!optionsBuilder.IsConfigured)
       {
           optionsBuilder
-          .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = Accidentes");
+          .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AccidentesPro");
 
           
       }  
