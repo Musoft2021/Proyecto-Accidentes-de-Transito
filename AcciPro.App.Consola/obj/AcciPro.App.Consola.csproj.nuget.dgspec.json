@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.consola\\AcciPro.App.Consola.csproj": {}
+    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.consola\\AcciPro.App.Consola.csproj": {
+    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.consola\\AcciPro.App.Consola.csproj",
+        "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj",
         "projectName": "AcciPro.App.Consola",
-        "projectPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.consola\\AcciPro.App.Consola.csproj",
+        "projectPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Angee Torres\\.nuget\\packages\\",
-        "outputPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.consola\\obj\\",
+        "outputPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Angee Torres\\AppData\\Roaming\\NuGet\\NuGet.Config"

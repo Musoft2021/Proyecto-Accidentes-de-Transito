@@ -7,7 +7,7 @@ namespace AcciPro.App.Persistencia
     {
         public DbSet<Persona> Personas {get;set;}
         public DbSet<Agente> Agentes {get;set;}
-        public DbSet<Accidente> Accidentes {get;set;}
+        public DbSet<Accidente> Accidente {get;set;}
         public DbSet<EventoAccidente> EventoAccidentes {get;set;}
         public DbSet<TipoVehiculo> TipoVehiculos {get;set;}
         public DbSet<Vehiculo> Vehiculos {get;set;}
@@ -18,7 +18,7 @@ namespace AcciPro.App.Persistencia
       if (!optionsBuilder.IsConfigured)
       {
           optionsBuilder
-          .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AccidentesPro");
+          .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AccidentesTransito");
 
           
       }  

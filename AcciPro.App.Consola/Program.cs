@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using AcciPro.App.Dominio;
 using AcciPro.App.Persistencia;
 
@@ -7,11 +8,13 @@ namespace AcciPro.App.Consola
     class Program
     {
         private static IRepositorioAgente _repoAgente=new RepositorioAgente(new Persistencia.AppContext());
+        private static IRepositorioAccidente _repoAccidente=new RepositorioAccidente(new Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World Entity Framework!");
-            AddAgente();
+            //AddAgente();
            // BuscarAgente(1);
+           AddAccidente();
         }
 
         private static void AddAgente()
@@ -39,6 +42,33 @@ namespace AcciPro.App.Consola
         //var agente = _repoAgente.GetAgente(idAgente);
         //Console.WriteLine(agente.Nombre+" "+agente.Apellido);
         //}
+
+        private static void AddAccidente()
+        {
+            List<Agente> listaPersona= new List<Agente>{
+                new Agente{Nombre="Andres", Apellido="Fernandez", Cedula=109982347, Sexo="Masculino", edad="26"},
+                new Agente{Nombre="Camilo", Apellido="Lopez", Cedula=1124838409, Sexo="Masculino", edad="30"},
+                new Agente{Nombre="Sandra", Apellido="Perez", Cedula=1209832112, Sexo="Femenino", edad="28"}
+            };
+            List<Vehiculo> listaVehiculo= new List<Vehiculo>{
+                new Vehiculo{Tipo_Propietario="Propio", Matricula="CXU034", Modelo="Clio", Ciudad="Bogota"},
+                new Vehiculo{Tipo_Propietario="Propio", Matricula="GSO343", Modelo="Duster", Ciudad="Medellin"},
+                new Vehiculo{Tipo_Propietario="Propio", Matricula="NVQ024", Modelo="Mazda 2", Ciudad="Bogota"}
+            };
+
+            var nuevoAccidente = new Accidente
+            {
+                Latitud="75.52290F",
+                Longitud="5.07062F",
+                Direccion="Calle 160a N 50g-10",
+                //Fecha='2021/10/10',
+                Descripcion="Choque Multiples Vehiculos"
+
+            };
+
+            _repoAccidente.AddAccidente(nuevoAccidente);
+
+        }
 
     }
 

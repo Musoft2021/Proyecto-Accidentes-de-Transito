@@ -23,7 +23,7 @@ public RepositorioAccidente(AppContext AppContext)
 
 void IRepositorioAccidente.DeleteAccidente(int idAccidente)
 {
-    var accidenteEncontrado=_appContext.Accidente.Where(p => p.Id==idAccidente)FirstOrDefault();
+    var accidenteEncontrado=_appContext.Accidente.FirstOrDefault(p => p.Id==idAccidente);
     if(accidenteEncontrado==null)
         return;
     _appContext.Accidente.Remove(accidenteEncontrado);
@@ -42,22 +42,22 @@ IEnumerable<Accidente> IRepositorioAccidente.GetAllAccidentes()
 
 Accidente IRepositorioAccidente.UpdateAccidente(Accidente accidente)
 {
-    var AccidenteEncontrado=_appContext.Accidente.Where(p => p.Id==accidente.Id)FirstOrDefault();
+    var AccidenteEncontrado=_appContext.Accidente.FirstOrDefault(p => p.Id==accidente.Id);
     if (AccidenteEncontrado!=null)
     {
-        accidenteEncontrado.Latitud=accidente.Latitud;
-        accidenteEncontrado.Persona=accidente.Persona;
-        accidenteEncontrado.Vehiculo=accidente.Vehiculo;
-        accidenteEncontrado.Longitud=accidente.Longitud;
-        accidenteEncontrado.Direccion=accidente.Direccion;
-        accidenteEncontrado.Fecha=accidente.Fecha;
-        accidenteEncontrado.Descripcion=accidente.Descripcion;
+        AccidenteEncontrado.Latitud=accidente.Latitud;
+        AccidenteEncontrado.Persona=accidente.Persona;
+        AccidenteEncontrado.Vehiculo=accidente.Vehiculo;
+        AccidenteEncontrado.Longitud=accidente.Longitud;
+        AccidenteEncontrado.Direccion=accidente.Direccion;
+        AccidenteEncontrado.Fecha=accidente.Fecha;
+        AccidenteEncontrado.Descripcion=accidente.Descripcion;
        
         _appContext.SaveChanges();
         
     }
 
-        return accidenteEncontrado;
+        return AccidenteEncontrado;
 }
 
 }
