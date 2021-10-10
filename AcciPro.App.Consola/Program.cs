@@ -10,8 +10,8 @@ namespace AcciPro.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World Entity Framework!");
-            //AddAgente();
-            BuscarAgente(1);
+            AddAgente();
+           // BuscarAgente(1);
         }
 
         private static void AddAgente()
@@ -34,11 +34,11 @@ namespace AcciPro.App.Consola
          }
     
     
-        private static void BuscarAgente(int idAgente)
-        {
-        var agente = _repoAgente.GetAgente(idAgente);
-        Console.WriteLine(agente.Nombre+" "+agente.Apellido);
-        }
+        //private static void BuscarAgente(int idAgente)
+        //{
+        //var agente = _repoAgente.GetAgente(idAgente);
+        //Console.WriteLine(agente.Nombre+" "+agente.Apellido);
+        //}
 
     }
 
