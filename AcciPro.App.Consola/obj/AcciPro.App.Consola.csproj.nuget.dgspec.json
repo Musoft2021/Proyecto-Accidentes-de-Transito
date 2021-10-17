@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj": {}
+    "C:\\Accidentes\\AcciPro.App\\accipro.app.consola\\AcciPro.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj": {
+    "C:\\Accidentes\\AcciPro.App\\accipro.app.consola\\AcciPro.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj",
+        "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\accipro.app.consola\\AcciPro.App.Consola.csproj",
         "projectName": "AcciPro.App.Consola",
-        "projectPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\AcciPro.App.Consola.csproj",
+        "projectPath": "C:\\Accidentes\\AcciPro.App\\accipro.app.consola\\AcciPro.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Angee Torres\\.nuget\\packages\\",
-        "outputPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Consola\\obj\\",
+        "outputPath": "C:\\Accidentes\\AcciPro.App\\accipro.app.consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Angee Torres\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -118,7 +118,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -194,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
         }
       }
     }

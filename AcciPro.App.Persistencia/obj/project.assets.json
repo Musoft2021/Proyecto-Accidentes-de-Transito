@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Persistencia\\AcciPro.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Accidentes\\AcciPro.App\\accipro.app.Persistencia\\AcciPro.App.Persistencia.csproj",
       "projectName": "AcciPro.App.Persistencia",
-      "projectPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Persistencia\\AcciPro.App.Persistencia.csproj",
+      "projectPath": "C:\\Accidentes\\AcciPro.App\\accipro.app.Persistencia\\AcciPro.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\Angee Torres\\.nuget\\packages\\",
-      "outputPath": "C:\\Accidentes\\AcciPro.App\\AcciPro.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Accidentes\\AcciPro.App\\accipro.app.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Angee Torres\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
       }
     }
   }

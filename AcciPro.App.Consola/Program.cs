@@ -22,15 +22,15 @@ namespace AcciPro.App.Consola
             var agente = new Agente 
             {
                 
-                Nombre="Nicolay",
-                Apellido="Perez",
+                Nombre="Santiago",
+                Apellido="Fernandez",
                 Sexo="Masculino",
-                edad="26",
-                Direccion="Calle 127a N 70g-10",
-                Latitud=-75.52290F,
-                Longitud=5.07062F,
-                Ciudad="Bogota",
-                FechaNacimiento=new DateTime(1990,04,12)
+                edad="29",
+                Direccion="Calle 167a N 30g-10",
+                Latitud=-73.654490F,
+                Longitud=3.09862F,
+                Ciudad="Medellin",
+                FechaNacimiento=new DateTime(1992,04,12)
             };
 
             _repoAgente.AddAgente(agente);
