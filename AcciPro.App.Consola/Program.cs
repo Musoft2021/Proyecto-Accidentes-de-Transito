@@ -36,13 +36,42 @@ namespace AcciPro.App.Consola
             _repoAgente.AddAgente(agente);
          }
     
-    
-        //private static void BuscarAgente(int idAgente)
-        //{
-        //var agente = _repoAgente.GetAgente(idAgente);
-        //Console.WriteLine(agente.Nombre+" "+agente.Apellido);
-        //}
+    private static void AddAgenteConAccidente()
+        {
+            var agente = new Agente 
+            {
+                
+                Nombre="Santiago",
+                Apellido="Fernandez",
+                Sexo="Masculino",
+                edad="29",
+                Direccion="Calle 167a N 30g-10",
+                Latitud=-73.654490F,
+                Longitud=3.09862F,
+                Ciudad="Medellin",
+                FechaNacimiento=new DateTime(1990,04,12)
+                Accidentes= new List<Accidente>{
+                    new Accidente{Id=new Latitud(7.097773),List<Persona>=(Sandra),List<Vehiculo>Vehiculo=(Mazda),
+                    Longitud=(4.0865),Direccion=(Calle,127,N,88,90),Fecha=(2021,10,17),Descripcion=(AddAccidente,leve)}
+                }
+            };
 
+            _repoAgente.AddAgente(agente);
+         }
+    
+    
+        private static void BuscarAgente(int idAgente)
+        {
+        var agente = _repoAgente.GetAgente(idAgente);
+        Console.WriteLine(agente.Nombre+" "+agente.Apellido);
+        }
+
+        private static void AsignarAccidente()
+        {
+        var Accidente=_repoAgente.AsignarAccidente(1, 2);
+        Console.WriteLine(agente.Nombre+" "+agente.Apellido);
+        }
+        
         private static void AddAccidente()
         {
             List<Agente> listaAgente= new List<Agente>{
