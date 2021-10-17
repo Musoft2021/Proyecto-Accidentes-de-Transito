@@ -35,10 +35,10 @@ IEnumerable<Accidente> IRepositorioAccidente.GetAllAccidentes()
     return _appContext.Accidente; 
 }
 
-//Accidente IRepositorioAccidente.GetAccidente(int idAccidente)
-//{
-   //return _appContext.Accidente.FirstOrDefault(p => p.Id==idAgente);
-//}
+Accidente IRepositorioAccidente.GetAccidente(int idAccidente)
+{
+   return _appContext.Accidente.FirstOrDefault(p => p.Id==idAccidente);
+}
 
 Accidente IRepositorioAccidente.UpdateAccidente(Accidente accidente)
 {
@@ -58,6 +58,16 @@ Accidente IRepositorioAccidente.UpdateAccidente(Accidente accidente)
     }
 
         return AccidenteEncontrado;
+}
+
+public Agente AsignarAccidente(int IdAgente, int IdAccidente)
+{
+    var AccidenteEncontrado=_appContext.Accidente.firstOrDefault(a => a.Id ==IdAccidente);
+    if(AccidenteEncontrado !=null)
+
+    {
+       var AgenteEncontrado= _appContext.Agente.firstOrDefault(t => t.Id ==IdAgente);
+    }
 }
 
 }

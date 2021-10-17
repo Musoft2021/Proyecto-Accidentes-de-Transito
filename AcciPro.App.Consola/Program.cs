@@ -12,6 +12,7 @@ namespace AcciPro.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World Entity Framework!");
+            AddAgenteConAccidente();
             //AddAgente();
            // BuscarAgente(1);
            AddAccidente();
@@ -49,10 +50,11 @@ namespace AcciPro.App.Consola
                 Latitud=-73.654490F,
                 Longitud=3.09862F,
                 Ciudad="Medellin",
-                FechaNacimiento=new DateTime(1990,04,12)
+                FechaNacimiento=new DateTime(1990,04,12),
                 Accidentes= new List<Accidente>{
                     new Accidente{Id=new Latitud(7.097773),List<Persona>=(Sandra),List<Vehiculo>Vehiculo=(Mazda),
-                    Longitud=(4.0865),Direccion=(Calle,127,N,88,90),Fecha=(2021,10,17),Descripcion=(AddAccidente,leve)}
+                    Longitud=(4.0865),Direccion=(Calle,127,N,88,90),Fecha=(2021,10,17),Descripcion=(Accidente,leve)}
+
                 }
             };
 
