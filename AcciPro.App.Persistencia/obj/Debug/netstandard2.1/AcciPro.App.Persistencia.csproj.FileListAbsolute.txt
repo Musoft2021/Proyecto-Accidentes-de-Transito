@@ -1,11 +1,12 @@
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\bin\Debug\netstandard2.1\AcciPro.App.Persistencia.deps.json
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\bin\Debug\netstandard2.1\AcciPro.App.Persistencia.dll
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\bin\Debug\netstandard2.1\AcciPro.App.Persistencia.pdb
-C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.csprojAssemblyReference.cache
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.AssemblyInfoInputs.cache
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.AssemblyInfo.cs
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.dll
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.pdb
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\bin\Debug\netstandard2.1\AcciPro.App.Dominio.dll
 C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\bin\Debug\netstandard2.1\AcciPro.App.Dominio.pdb
-C:\Accidentes\AcciPro.App\AcciPro.app.Persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.csproj.CopyComplete
+C:\accidentes\accipro.app\accipro.app.persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.csproj.AssemblyReference.cache
+C:\accidentes\accipro.app\accipro.app.persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\accidentes\accipro.app\accipro.app.persistencia\obj\Debug\netstandard2.1\AcciPro.App.Persistencia.csproj.CoreCompileInputs.cache

@@ -18,7 +18,7 @@ namespace AcciPro.App.Persistencia
       if (!optionsBuilder.IsConfigured)
       {
           optionsBuilder
-          .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AccidentesTransito");
+          .UseSqlServer("Server=tcp:misionticmusoft2022.database.windows.net,1433;Initial Catalog=HolaWeb.App.Frontend;Persist Security Info=False;User ID=Admin_01;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
           
       }  

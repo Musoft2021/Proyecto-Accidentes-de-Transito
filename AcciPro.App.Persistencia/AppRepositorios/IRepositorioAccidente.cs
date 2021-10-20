@@ -12,6 +12,6 @@ namespace AcciPro.App.Persistencia
         void DeleteAccidente(int idAccidente);
        Accidente GetAccidente(int idAccidente);
         
-        Agente AsignarAccidente(int idAgente, int idAccidente);
+        //Agente AsignarAccidente(int idAgente, int idAccidente);
     }
 }

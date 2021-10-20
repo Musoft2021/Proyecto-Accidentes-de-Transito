@@ -60,15 +60,14 @@ Accidente IRepositorioAccidente.UpdateAccidente(Accidente accidente)
         return AccidenteEncontrado;
 }
 
-public Agente AsignarAccidente(int IdAgente, int IdAccidente)
-{
-    var AccidenteEncontrado=_appContext.Accidente.firstOrDefault(a => a.Id ==IdAccidente);
-    if(AccidenteEncontrado !=null)
+//public Agente AsignarAccidente(int IdAgente, int IdAccidente)
+//{
+    //var AccidenteEncontrado=_appContext.Accidente.firstOrDefault(a => a.Id ==IdAccidente);
+    //if(AccidenteEncontrado !=null)
 
-    {
-       var AgenteEncontrado= _appContext.Agente.firstOrDefault(t => t.Id ==IdAgente);
-    }
+    //{
+       //var AgenteEncontrado= _appContext.Agente.firstOrDefault(t => t.Id ==IdAgente);
+    //}
 }
 
-}
 }

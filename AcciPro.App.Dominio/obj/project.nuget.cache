@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "H/6WEH6p4gk4CdfTCQU0kLl2LXib1d8R/2je3+6vlDSRwKO+8QyhAg653Xgt/ktWiL+qVcBbQcnKAJw7sKcV3Q==",
+  "success": true,
+  "projectFilePath": "C:\\accidentes\\accipro.app\\AcciPro.App.Dominio\\AcciPro.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angee Torres\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Angee Torres\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
